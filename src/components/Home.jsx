@@ -39,9 +39,8 @@ const Home = () => {
 
   return (
     <section>
-      
       <section className="homebody">
-      <StarsBackground />
+        <StarsBackground />
         <div className="header">PORTFOLIO © 2025</div>
         <div className="container-body">
           <div className="imageposition">
@@ -99,10 +98,15 @@ const Home = () => {
               Healthcare Platform
             </div>
           </Link>
-
-          <div ref={parallax2.ref} className="workdonebubble2">
-            Personal Portfolio{" "}
-          </div>
+          <Link
+            to={"https://github.com/harshinJJ/my-website"}
+            target="_blank"
+            style={{ textDecoration: "none" }}
+          >
+            <div ref={parallax2.ref} className="workdonebubble2">
+              Personal Portfolio{" "}
+            </div>
+          </Link>
           <Link
             to={"https://github.com/harshinJJ/Blood-Bank-project"}
             target="_blank"
