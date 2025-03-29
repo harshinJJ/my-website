@@ -1,0 +1,43 @@
+  .stars-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+
+  }
+  
+  #stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+  }
+  
+  .star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background: white;
+    opacity: 0.8;
+    border-radius: 50%;
+    animation: twinkle 2s infinite alternate, fall linear infinite;
+  }
+  
+  @keyframes twinkle {
+    0% { opacity: 0.3; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes fall {
+    from {
+      transform: translateY(-100vh); 
+    }
+    to {
+      transform: translateY(100vh); 
+    }
+  }
+  

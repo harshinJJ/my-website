@@ -1,0 +1,547 @@
+
+
+.homebody{
+    background-color: black;
+    overflow: hidden;
+    height: 3500px;
+}
+.header{
+    font-family: 'Beatrice', Arial, sans-serif;
+    color: #CEC9C9;
+    padding: 30px 0px 0px 25px;
+    font-weight: 600;
+    font-optical-sizing: auto;
+}
+.container-body {
+    height: 800px;
+} 
+.bg-container {
+    position: relative;
+    height: 600px;
+    margin-top: 3%;
+    position: relative;
+    bottom: 400px;
+}
+.myname {
+    color: #CEC9C9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 145px;
+
+    font-optical-sizing: auto;
+
+    font-size: 9vw;
+    font-style: normal;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+
+}
+   .myprofile{
+    color: #CEC9C9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 280px;
+
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 5vw;
+    font-style: normal;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+ }
+ .imageposition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    opacity: .6;
+ }
+   .myimage{
+    width: 320px;
+    border-radius: 10px;
+   }
+   .myintro{
+    color:white;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 16px;
+
+    text-align: center;
+    text-shadow:1px 1px 10px #fff, 1px 1px 13px #ffffff;
+
+   }
+   
+   .myintro1{
+    width: 490px;
+   }
+   .workdonetitle{
+    color: #CEC9C9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vw;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    position: relative;
+    top: 270px;
+    
+   }
+   .workdonebubble1{
+    position: relative;
+    top: 160px;
+    z-index: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    border-radius: 30px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3e7fff), to(#50a8ff));
+    background-image: linear-gradient(180deg, #3e7fff, #50a8ff);
+    box-shadow: 0 0 50px 2px rgba(103, 154, 204, 0.3);
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    font-family: 'Beatrice', Arial, sans-serif;
+    font-weight: 550;
+    width: 124px;
+   }
+   .workdonebubble2{
+    position: relative;
+    top: 160px;
+    left: 1100px;
+    z-index: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    border-radius: 30px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3e7fff), to(#50a8ff));
+    background-image: linear-gradient(180deg, #3e7fff, #50a8ff);
+    box-shadow: 0 0 50px 2px rgba(103, 154, 204, 0.3);
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    font-family: 'Beatrice', Arial, sans-serif;
+    font-weight: 550;
+    width: 111px;
+   }
+   .workdonebubble3{
+    position: relative;
+    top: 160px;
+    left: 745px;
+    z-index: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    border-radius: 30px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3e7fff), to(#50a8ff));
+    background-image: linear-gradient(180deg, #3e7fff, #50a8ff);
+    box-shadow: 0 0 50px 2px rgba(103, 154, 204, 0.3);
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    font-family: 'Beatrice', Arial, sans-serif;
+    font-weight: 550;
+    width: 126px;
+   }
+   .workdonebubble4{
+    position: relative;
+    left: 620px;
+    z-index: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    border-radius: 30px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3e7fff), to(#50a8ff));
+    background-image: linear-gradient(180deg, #3e7fff, #50a8ff);
+    box-shadow: 0 0 50px 2px rgba(103, 154, 204, 0.3);
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    font-family: 'Beatrice', Arial, sans-serif;
+    font-weight: 550;
+    width: 148px;
+   }
+   .workdonebubble5{
+    position: relative;
+    left: 520px;
+    z-index: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    border-radius: 30px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3e7fff), to(#50a8ff));
+    background-image: linear-gradient(180deg, #3e7fff, #50a8ff);
+    box-shadow: 0 0 50px 2px rgba(103, 154, 204, 0.3);
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    font-family: 'Beatrice', Arial, sans-serif;
+    font-weight: 550;
+    width: 133px;
+    margin-bottom: 200px;
+   }
+   
+  .cvpart{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cvimage{
+    width: 1000px;
+  }
+.cardsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+.card {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  }
+  
+
+  .socialContainer {
+    width: 82px;
+    height: 82px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+
+.ui-btn {
+    --btn-default-bg: rgb(41, 41, 41);
+    --btn-padding: 15px 20px;
+    --btn-hover-bg: rgb(51, 51, 51);
+    --btn-transition: .3s;
+    --btn-letter-spacing: .1rem;
+    --btn-animation-duration: 1.2s;
+    --btn-shadow-color: rgba(0, 0, 0, 0.137);
+    --btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);
+    --hover-btn-color: #FAC921;
+    --default-btn-color: #fff;
+    --font-size: 16px;
+    --font-weight: 600;
+    --font-family: Menlo,Roboto Mono,monospace;
+
+  }
+  
+
+  .download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ui-btn {
+    box-sizing: border-box;
+    padding: var(--btn-padding);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--default-btn-color);
+    font: var(--font-weight) var(--font-size) var(--font-family);
+    background: var(--btn-default-bg);
+    border: none;
+    cursor: pointer;
+    transition: var(--btn-transition);
+    overflow: hidden;
+    box-shadow: var(--btn-shadow);
+  }
+  
+  .ui-btn span {
+    letter-spacing: var(--btn-letter-spacing);
+    transition: var(--btn-transition);
+    box-sizing: border-box;
+    position: relative;
+    background: inherit;
+  }
+  
+  .ui-btn span::before {
+    box-sizing: border-box;
+    position: absolute;
+    content: "";
+    background: inherit;
+  }
+  
+  .ui-btn:hover, .ui-btn:focus {
+    background: var(--btn-hover-bg);
+  }
+  
+  .ui-btn:hover span, .ui-btn:focus span {
+    color: var(--hover-btn-color);
+  }
+  
+  .ui-btn:hover span::before, .ui-btn:focus span::before {
+    animation: chitchat linear both var(--btn-animation-duration);
+  }
+  
+
+  
+  @keyframes chitchat {
+    0% {
+      content: "#^^^@#$%^^";
+    }
+  
+    5% {
+      content: ".$%^$$_)";
+    }
+  
+    10% {
+      content: "^{W##$%$";
+    }
+  
+    15% {
+      content: "-#$!";
+    }
+  
+    20% {
+      content: "#$^**_";
+    }
+  
+    25% {
+      content: "№%%:0";
+    }
+  
+    30% {
+      content: "#{#%^+.";
+    }
+  
+    35% {
+      content: "@}-?";
+    }
+  
+    40% {
+      content: "?{4@%";
+    }
+  
+    45% {
+      content: "=.,^!";
+    }
+  
+    50% {
+      content: "?2@%";
+    }
+  
+    55% {
+      content: "\;1}]";
+    }
+  
+    60% {
+      content: "?{%:%";
+      right: 0;
+    }
+  
+    65% {
+      content: "|{f[4";
+      right: 0;
+    }
+  
+    70% {
+      content: "{4%0%";
+      right: 0;
+    }
+  
+    75% {
+      content: "'1_0<";
+      right: 0;
+    }
+  
+    80% {
+      content: "{0%";
+      right: 0;
+    }
+  
+    85% {
+      content: "]>'";
+      right: 0;
+    }
+  
+    90% {
+      content: "4";
+      right: 0;
+    }
+  
+    95% {
+      content: "2";
+      right: 0;
+    }
+  
+    100% {
+      content: "";
+      right: 0;
+    }
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+   
+   @media screen and (min-width: 992px) and (max-width: 1400px) {
+    .imageposition{
+        top: 130px;
+    }
+    .myimage{
+        width: 286px;
+    }
+    .myprofile{
+        margin-top: 315px;
+    }
+    .myname{
+        margin-top: 215px;
+    }
+   }
+   @media screen and (min-width: 768px) and (max-width: 991px) {
+    .imageposition{
+        top: 71px;
+    }
+    .myimage{
+        width: 250px;
+    }
+    .myprofile{
+        margin-top: 278px;
+    }
+    .myname{
+        margin-top: 205px;
+    }
+   }
+   @media screen and (min-width: 481px) and (max-width: 767px) {
+    .imageposition{
+        top: 45px;
+    }
+    .myimage{
+        width: 235px;
+    }
+    .myprofile{
+        margin-top: 255px;
+    }
+    .myname{
+        margin-top: 205px;
+    }
+   }
+   @media screen and (min-width: 320px) and (max-width: 480px) {
+    .homebody{
+        height: 2200px;
+    }
+    .imageposition{
+        top: 190px;
+    }
+    .myimage{
+        width: 185px;
+
+    }
+    .myprofile{
+        margin-top: 445px;
+        font-size: 24px;
+    }
+    .myname{
+        margin-top: 405px;
+        font-size: 36px;
+    }
+    .header{
+        font-size: 12px;
+    }
+    .myintro{
+       position: relative;
+       bottom: 150px;
+       font-size: 17px;
+       }
+    .myintro1{
+       width: 290px;
+       }
+      
+        .workdonebubble1,
+        .workdonebubble2,
+        .workdonebubble3,
+        .workdonebubble4,
+        .workdonebubble5 {
+          width: 90%; 
+          max-width: 150px; 
+          font-size: 12px; 
+          left: auto; 
+          top: auto;
+          margin: 10px auto; 
+          text-align: center;
+          
+        }
+        .workdonetitle {
+          font-size: 7vw; 
+          top: .1px;
+        }
+    .cvimage{
+        width: 350px;
+    }
+    .card{
+        width: 300px;
+        height: 50px;
+    }
+   }
