@@ -157,7 +157,7 @@ const Home = () => {
         <div class="cardsection">
           <div class="card">
             <a
-              href="mailto:harshinmansoor918@gmail.com" // Replace with your email
+              href="mailto:harshinmansoor918@gmail.com" 
               className="socialContainer containerOne"
               target="_blank"
               rel="noopener noreferrer"

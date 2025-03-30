@@ -3,30 +3,26 @@ import "./StarsBackground.css";
 
 const StarsBackground = () => {
   useEffect(() => {
-    console.log("🌟 StarsBackground Mounted!");
+    console.log("Starsbackground");
 
     const numStars = 300;
     const starsContainer = document.getElementById("stars");
 
     if (!starsContainer) {
-      console.error("❌ Element with id 'stars' not found!");
+      console.error("stars not found");
       return;
     }
-
-    starsContainer.innerHTML = ""; 
+    starsContainer.innerHTML = "";
 
     for (let i = 0; i < numStars; i++) {
       let star = document.createElement("div");
       star.className = "star";
-
       let x = Math.random() * window.innerWidth;
       let y = Math.random() * window.innerHeight;
-      let duration = Math.random() * 5 + 5; 
-
+      let duration = Math.random() * 5 + 5;
       star.style.left = `${x}px`;
       star.style.top = `${y}px`;
       star.style.animationDuration = `${duration}s`;
-
       starsContainer.appendChild(star);
     }
   }, []);
