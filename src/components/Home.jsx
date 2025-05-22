@@ -90,7 +90,7 @@ const Home = () => {
         <div className="workidone">
           <span className="workdonetitle">Projects I Have Done</span>
           <Link
-            to={"https://github.com/harshinJJ/Blood-Bank-project"}
+            to={"https://github.com/harshinJJ/Doctor-appointment-Scheduling"}
             target="_blank"
             style={{ textDecoration: "none" }}
           >
@@ -108,7 +108,7 @@ const Home = () => {
             </div>
           </Link>
           <Link
-            to={"https://github.com/harshinJJ/Doctor-appointment-Scheduling"}
+            to={"https://github.com/harshinJJ/Blood-Bank-project"}
             target="_blank"
             style={{ textDecoration: "none" }}
           >
