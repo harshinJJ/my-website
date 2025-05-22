@@ -108,7 +108,7 @@ const Home = () => {
             </div>
           </Link>
           <Link
-            to={"https://github.com/harshinJJ/Blood-Bank-project"}
+            to={"https://github.com/harshinJJ/Doctor-appointment-Scheduling"}
             target="_blank"
             style={{ textDecoration: "none" }}
           >
